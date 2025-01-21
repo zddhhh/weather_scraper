@@ -1,0 +1,11 @@
+[package]
+name = "weather_scrapercargo"
+version = "0.1.0"
+edition = "2021"
+
+# Cargo.toml 更新依赖
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+scraper = "0.13"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
